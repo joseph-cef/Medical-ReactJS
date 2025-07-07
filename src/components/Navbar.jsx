@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-scroll";
 import { Contact } from "../models/Contact";
+
+// الايقونات تاع ال منيو
 import { HiMenu, HiX } from "react-icons/hi";
 import Button from "../layouts/Button";  
 
@@ -18,7 +20,7 @@ export const Navbar = () => {
       <div className="flex justify-between items-center px-6 py-4">
          <div className="text-2xl font-bold text-gray-800 cursor-pointer">
           <Link to="home" smooth={true} duration={500} onClick={closeMenu}>
-            Wellness<span className="text-blue-700">Vista</span>.
+            Wellness<span className="text-blue-700">Vista</span>
           </Link>
         </div>
 
@@ -46,7 +48,7 @@ export const Navbar = () => {
       </div>
 
        {isMenuOpen && (
-        <div className="lg:hidden flex flex-col items-center gap-6 bg-white py-6 shadow-md">
+        <div className="lg:hidden flex flex-col items-center gap-6  bg-green-300/0 py-6 shadow-md">
           {["home", "about", "services", "doctors", "blogs"].map((section) => (
             <Link
               key={section}
