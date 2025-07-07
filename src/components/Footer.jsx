@@ -10,11 +10,7 @@ export const Footer = () => {
           <p className="text-blue-700 leading-relaxed">
             We provide high-quality medical services including cardiology, pediatrics, dermatology, and more.
           </p>
-          <div className="flex flex-wrap gap-4">
-            <a href="#about" className="text-blue-700 hover:text-blue-900 transition">About Us</a>
-            <a href="#services" className="text-blue-700 hover:text-blue-900 transition">Services</a>
-            <a href="#contact" className="text-blue-700 hover:text-blue-900 transition">Contact</a>
-          </div>
+ 
         </div>
 
          <div className="space-y-4">
