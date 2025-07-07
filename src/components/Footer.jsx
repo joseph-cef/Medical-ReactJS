@@ -20,10 +20,10 @@ export const Footer = () => {
          <div className="space-y-4">
           <h3 className="text-xl font-semibold text-blue-900">Contact</h3>
           <address className="not-italic text-blue-700 space-y-1">
-            <p>123 Elm Street</p>
-            <p>Springfield, IL 62701</p>
-            <p>Email: support@care.com</p>
-            <p>Phone: +123-456-7890</p>
+            <p> tiaret </p>
+            <p>rahma </p>
+            <p>Email: support@dz.com</p>
+            <p>Phone: +213667986561</p>
           </address>
         </div>
 
